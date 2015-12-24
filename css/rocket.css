@@ -39,6 +39,26 @@
 	bottom: 1000px;
 }
 
+.first_state {
+
+}
+
+.second_state {
+	display: none;
+}
+
+.third_state {
+	display: none;
+}
+
+.fourth_state {
+	display: none;
+}
+
+.fif_state {
+	display: none;
+}
+
 a {
 
 }

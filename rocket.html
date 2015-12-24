@@ -11,14 +11,33 @@
 
 	<div class="left">
 		<div class="first_state">
-			<h2>JS Rocket Launch!</h2>
+			<h1>JS Rocket Launch!</h1>
+			<a href="#" class="button" onclick="abort();">Abort!</a>
+		</div>
+
+		<div class="second_state">
+			<h2 id="countdown">5</h2>
 			<a href="#" class="button" onclick="startCountDown();">Launch!</a>
+		</div>
+
+		<div class="third_state">
+			<h2>Lift Off!</h2>
+		</div>
+
+		<div class="fourth_state">
+			<h2>We Did It!</h2>
+			<a href="#" class="button" onclick="oneMoreTime();">One more time!</a>
+		</div>
+
+		<div class="fif_state">
+			<h2>Oops!</h2>
+			<a href="#" class="button" onclick="oneMoreTime();">Oops! Try again!</a>
 		</div>
 	</div>
 
 	<div class="right">
-		<div class="rocket">
 		<div class="grass"></div>
+		<div class="rocket">
 		</div>
 	</div>
 
