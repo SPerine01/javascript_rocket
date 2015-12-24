@@ -11,7 +11,9 @@ var changeState = function(state) {
 			countdownNumber = countdownNumber -1;
 			if (countdownNumber <= 0) {
 				changeState(3);
-			};
+			}
 		}, 1000);
+	} else if (state == 3) {
+
 	}
 };
