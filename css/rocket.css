@@ -1,5 +1,5 @@
 .left {
-	background-color: #92148E;
+	background-color: #CCD6D5;
 	position: fixed;
 	width: 50%;
 	height: 100%;
@@ -8,7 +8,7 @@
 }
 
 .right {
-	background-color: #383FFF;
+	background-color: #1A6DFF;
 	position: fixed;
 	width: 50%;
 	height: 100%;
@@ -28,11 +28,29 @@
 .rocket {
 	position: absolute;
 	left: 50%;
-	bottom: 20px;
-	width: 20px;
-	height: 100px;
-	background-color: black;
+	bottom: -15px;
+	width: 143px;
+	height: 272px;
+	margin-left: -72px;
+	background: url("../pics/rocket-state1.png") no-repeat 0 0;
 	transition: bottom 10000ms;
+}
+
+/*rocket background image*/
+
+body.body-state2 .rocket {
+	background-image: url("../pics/rocket-state2.gif");
+}
+
+body.body-state3 .rocket,
+body.body-state4 .rocket {
+	background-image: url("../pics/rocket-state3.gif");
+
+}
+
+body.body-state5 .rocket {
+	background-image: url("../pics/boom.png");
+	width: 209px;
 }
 
 body.body-state1 .rocket {
