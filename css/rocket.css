@@ -1,3 +1,7 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
 .left {
 	background-color: #CCD6D5;
 	position: fixed;
@@ -5,6 +9,11 @@
 	height: 100%;
 	top: 0;
 	left: 0;
+}
+
+.interface {
+	text-align: center;
+	padding: 25px;
 }
 
 .right {
@@ -23,6 +32,20 @@
 	left: 0;
 	width: 100%;
 	height: 20px;
+}
+
+.yay {
+	position: absolute;
+	top: 45px;
+	left: 150px;
+	background: url("../pics/yay.png") no-repeat 0 0;
+	width: 225px;
+	height: 100px;
+	display: none;
+}
+
+.yay.show {
+	display: block;
 }
 
 .rocket {
