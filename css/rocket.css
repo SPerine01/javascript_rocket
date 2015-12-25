@@ -3,7 +3,7 @@ body {
 }
 
 .left {
-	background-color: #CCD6D5;
+	background-color: aliceblue;
 	position: fixed;
 	width: 50%;
 	height: 100%;
@@ -16,8 +16,22 @@ body {
 	padding: 25px;
 }
 
+a.button {
+	display: inline-block;
+	background-color: tomato;
+	color: navy;
+	padding: 20px 40px;
+	border-radius: 12px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+a:hover {
+	color: darkmagenta;
+}
+
 .right {
-	background-color: #1A6DFF;
+	background-color: lightcyan;
 	position: fixed;
 	width: 50%;
 	height: 100%;
